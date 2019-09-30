@@ -15,6 +15,10 @@ namespace Translator
                 {
                     inputArray[i] = '0';
                 }
+                else if (inputArray[i] == 'l')
+                {
+                    inputArray[i] = '1';
+                }
             }
 
 

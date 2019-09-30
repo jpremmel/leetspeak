@@ -18,6 +18,11 @@ namespace Translator.Test
             Leetspeak testLeetspeak = new Leetspeak(); 
             Assert.AreEqual("0", testLeetspeak.Translate("o"));
         }
-
+        [TestMethod]
+        public void Translate_Turnlto1_1()
+        {
+            Leetspeak testLeetspeak = new Leetspeak(); 
+            Assert.AreEqual("1", testLeetspeak.Translate("l"));
+        }
     }
 }
